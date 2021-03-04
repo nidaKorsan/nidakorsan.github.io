@@ -1,19 +1,19 @@
 {
   "website":{
-    "title": "杰克的博客"
+    "title": "Blogum"
   },
   "nav":{
-    "home": "首页",
-    "about_me": "关于我",
-    "skills": "技能",
-    "projects": "项目",
-    "career": "职业",
-    "blog": "博客",
-    "link": "友情链接"
+    "home": "Anasayfa",
+    "about_me": "Hakkımda",
+    "skills": "Yetenekler",
+    "projects": "Projeler",
+    "career": "Kariyer",
+    "blog": "Blog",
+    "link": "Linkler"
   },
   "about_me":{
-    "about_me": "关于我",
-    "des": "我是一名全栈工程师，有开发网站，运维自动化，编写脚本的经验。人生是不断学习的过程，工作使我变的更严谨，旅行让我的生活更加多彩。通过编程和旅行我能结识到很多朋友。"
+    "about_me": "Hakkımda",
+    "des": "Gebze Teknik Üniversitesi'nde Bilgisayar Mühendisliği son sınıf öğrencisiyim."
   },
   "skills":{
     "my_skills": "我的技能"

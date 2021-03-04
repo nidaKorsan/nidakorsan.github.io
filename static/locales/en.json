@@ -1,6 +1,6 @@
 {
   "website":{
-    "title": "Jack's blog"
+    "title": "Nida's blog"
   },
   "nav":{
     "home": "Home",
@@ -13,7 +13,7 @@
   },
   "about_me":{
     "about_me": "About Me",
-    "des": "I am a Full Stack engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel."
+    "des": "Final Year Undergraduate Computer Science and Engineering Student in Gebze Technical University. I aim for a career on AR/VR development, computer graphics and/or deep learning studies. Currently I am working on developing my knowledge on these topics."
   },
   "skills":{
     "my_skills": "My Skills"
