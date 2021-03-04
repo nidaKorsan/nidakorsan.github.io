@@ -19,8 +19,7 @@
     detail: OBSS Technology
     i18n: company_b
   desc:
-    detail: I had my internship at OBSS Technology. I worked on a project which I developed Web Application, used Java Spring for back-end and
-    ReactJS for front-end.
+    detail: I had my internship at OBSS Technology. I worked on a project which I developed Web Application, used Java Spring for back-end and ReactJS for front-end.
     i18n: company_b_desc
   date:
     detail: Jul. 2020 - Aug. 2020
