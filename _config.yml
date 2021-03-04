@@ -29,7 +29,10 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: icon-cplusplus
     - name: icon-python
-  desc: Final Year Undergraduate Computer Science and Engineering Student  # Describe yourself.
+ # Describe yourself.
+  desc: Final Year Undergraduate Computer Science and Engineering Student in Gebze Technical University.
+        I aim for a career on AR/VR development, computer graphics and/or deep learning studies. Currently I am working on developing 
+        my knowledge on these topics.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
