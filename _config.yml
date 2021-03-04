@@ -23,8 +23,8 @@ author:  # change following line to your infomation.
   email: nida.korsan@gmail.com  # Leave blank if you don't have now
   cv:  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
-  skill_icon1:
-    - name: logoIcon
+  #skill_icon1:
+  #  - name: logoIcon
   desc: Final Year Undergraduate Computer Science and Engineering Student  # Describe yourself.
 
 # comment
