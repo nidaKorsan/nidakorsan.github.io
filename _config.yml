@@ -2,7 +2,7 @@
 
 # Website settings
 title: Nida
-description: Jack's blog,use Jekyll and github pages.
+description: Nida's blog,use Jekyll and github pages.
 keywords: Nida,Korsan,nasrok,Jekyll,github,blog,gh-pages
 #baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 #url: https://jarrekk.github.io/Jalpc  # url should be 'http://<github_username>.github.io/homepage' as before
@@ -35,13 +35,13 @@ author:  # change following line to your infomation.
         my knowledge on these topics.
 
 # comment
-disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: jalpc
+#disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+#  name: jalpc
 
 # analytics
 ## google analytics
 ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  id: UA-93473370-3
+  #id: UA-93473370-3
 
 ## google optimize
 go:
