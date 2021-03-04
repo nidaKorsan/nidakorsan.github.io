@@ -31,9 +31,7 @@ author:  # change following line to your infomation.
     - name: icon-python
  # Describe yourself.
   desc: Final Year Undergraduate Computer Science and Engineering Student in Gebze Technical University.
-        I aim for a career on AR/VR development, computer graphics and/or deep learning studies. Currently I am working on developing 
-        my knowledge on these topics.
-
+        I aim for a career on AR/VR development, computer graphics and/or deep learning studies.
 # comment
 #disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
 #  name: jalpc
