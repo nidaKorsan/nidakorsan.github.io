@@ -38,7 +38,7 @@ Due to hardware complications, I could not find enough time for optimization and
 Here are the samples of UI and usage of application.
 <img src="{{ site.img_path }}/arMessage/hifromnoteshub.jpg" width="50%">
 <img src="{{ site.img_path }}/arMessage/texturepoints.jpg" width="50%">
-![Alt Text]({{ site.img_path }}/arMessage/hifromnoteshub.jpg)
+
 # Future Goals
 
 ### Multiplatform Application
