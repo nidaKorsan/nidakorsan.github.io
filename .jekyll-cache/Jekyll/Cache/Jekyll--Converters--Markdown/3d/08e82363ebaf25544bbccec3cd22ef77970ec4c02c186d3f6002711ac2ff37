@@ -1,0 +1,45 @@
+I"<h1 id="introduction">Introduction</h1>
+<p>A mobile app which allows users to interact with each other by leaving virtual notes that are attached to the real world through augmented reality technology.</p>
+
+<p>Benefits include :</p>
+<ul>
+  <li>Multi-user content sharing through public AR notes</li>
+  <li>Developed for indoors</li>
+  <li>Environment friendly media types for notes such as text, images or 3D models.</li>
+</ul>
+
+<h2 id="requirements">Requirements</h2>
+<ul>
+  <li>Mobile android device with Google ARCore support</li>
+  <li>Development device with Unity (<em>2019.4.3f1+</em>)</li>
+  <li>Suitable medium for testing (<em>100+ texture points</em>)</li>
+</ul>
+
+<h1 id="development">Development</h1>
+
+<p>This project is developed in <em>C#</em> on <em>Unity Platform</em>, with ARCORe extensions for <em>Unity’s AR Foundation</em>. Also I want to specify that this is my first attempt on developing an augmented reality app, so this project have not reached its best version, yet.</p>
+
+<h2 id="application-and-technologies">Application and Technologies</h2>
+
+<p>Since this is an augmented reality application developed for indoor use, I aimed to use media recording and comparison algortihms after scanning existing objects indoors and identifying natural markers instead of GPS technology that is used for applications developed for outdoors. For scanning indoors, I got help from Google’s ARCore since it has advanced environmental understanding algorithms and this step becomes more efficient.</p>
+
+<p>For multi-user experience I used Google Cloud, and cloud anchors from ARCore. This way two users could use the application concurrently and see the changes at the same time. Additionally using cloud anchors helped me to recognize the current environment and place the augmented images accordingly.</p>
+
+<p>Due to hardware complications, I could not find enough time for optimization and adding more features to the application. Despite these problems, I could manage to stabilize augmented object placement precision around 5 cm.</p>
+
+<p>Here are the samples of UI and usage of application.</p>
+<p align="middle">
+<img src="/static/assets/img/blog/arMessage/texturepoints.jpg" width="30%" /> 
+<img src="/static/assets/img/blog/arMessage/hifromnoteshub.jpg" width="30%" />
+</p>
+
+<h1 id="future-goals">Future Goals</h1>
+
+<h3 id="multiplatform-application">Multiplatform Application</h3>
+
+<p>With the help of Unity AR Foundation with a simple configuration change, I can publish my application on IOS in addition to Android.</p>
+
+<h3 id="user-experience-testing">User Experience Testing</h3>
+
+<p>Due to lack of enough mobile devices, I could not test the final product with a lot of users. In the future, I want to test my application in a more systematic way so that I can update my application accordingly.</p>
+:ET
