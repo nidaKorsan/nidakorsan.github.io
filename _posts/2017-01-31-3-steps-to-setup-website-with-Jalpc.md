@@ -38,7 +38,9 @@ Due to hardware complications, I could not find enough time for optimization and
 Here are the samples of UI and usage of application.
 <img src="{{ site.img_path }}/arMessage/hifromnoteshub.jpg" width="50%">
 <img src="{{ site.img_path }}/arMessage/texturepoints.jpg" width="50%">
-![Adding Notes](/blog/arMessage/hifromnoteshub.jpg)
+![Plane Detection](/static/img/blog/arMessage/texturepoints.jpg)
+![Adding Notes](/static/img/blog/arMessage/hifromnoteshub.jpg)
+
 # Future Goals
 
 ### Multiplatform Application
