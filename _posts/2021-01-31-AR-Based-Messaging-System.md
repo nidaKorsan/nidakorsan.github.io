@@ -10,7 +10,6 @@ icon: icon-csharp
 ---
 
 # Introduction
-
 A mobile app which allows users to interact with each other by leaving virtual notes that are attached to the real world through augmented reality technology.
 
 Benefits include :
@@ -36,10 +35,11 @@ For multi-user experience I used Google Cloud, and cloud anchors from ARCore. Th
 Due to hardware complications, I could not find enough time for optimization and adding more features to the application. Despite these problems, I could manage to stabilize augmented object placement precision around 5 cm. 
 
 Here are the samples of UI and usage of application.
-<img src="{{ site.img_path }}/arMessage/hifromnoteshub.jpg" width="50%">
-<img src="{{ site.img_path }}/arMessage/texturepoints.jpg" width="50%">
-![Plane Detection](/static/img/blog/arMessage/texturepoints.jpg)
-![Adding Notes](/static/img/blog/arMessage/hifromnoteshub.jpg)
+<p align="middle">
+<img src="/static/assets/img/blog/arMessage/texturepoints.jpg" width="30%" hspace="50"> 
+<img src="/static/assets/img/blog/arMessage/hifromnoteshub.jpg" width="30%">
+</p>
+
 
 # Future Goals
 
