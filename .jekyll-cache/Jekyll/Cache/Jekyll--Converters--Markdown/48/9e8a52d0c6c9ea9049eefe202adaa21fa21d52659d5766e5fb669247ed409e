@@ -1,0 +1,55 @@
+I"#<h1 id="introduction">Introduction</h1>
+
+<p>In my second year in CSE, I joined the Robotics and Automation club in my university and as a team, we decided to attend to CanSat Competition which is orginazed by American Astronautical Society and sponsored by U.S. Naval Research Laboratory, NASA and more organizations.</p>
+
+<p>The consept of the competition design-build-launch a space-type system, following the given requirements. This space-type system is called a “<em>CanSat</em>” (short for <strong>Can</strong> <strong>Sat</strong>telite). Every year the mission changes. In the year our team had attended, we were expected to design an auto-gyro/passive helicopter recovery descent control system of a science payload and a container to protect the science payload as it is deployed from the rocket.</p>
+
+<p>During this mission we were expected to provide and transmit data which include measurements for altitude using air pressure, external temperature, battery voltage, GPS position, pitch and roll and auto-gyro/ passive helicopter recovery blade spin rate to a ground control device. When the science payload lands, the software loaded should stop all telemetry and activate an audio beacon which is located on the science payload.</p>
+
+<p>I was responsible for designing the flow of flight software that is needed for the quests listed above and develop this software.</p>
+
+<h1 id="development">Development</h1>
+
+<p>We decided to use Teensy 3.6 board to control and manage the sensors needed. Thr reasons behind choosing this board are that it is light and small, well-priced and that it has as sufficient memory and speed. Also it had more than one serial busses, which allowed the software to be a bit clearer. For telemetry we used XBEE radios.</p>
+
+<p>As development environment I used Visual Basic, Arduino IDE and XCTU IDE.</p>
+
+<h3 id="flight-software-design-summary">Flight Software Design Summary</h3>
+<ul>
+  <li>Necessary raw data will be received from various sensors.</li>
+  <li>Data will be sent to MCU (micro controller unit).</li>
+  <li>Later on this data will be saved on an SD card.</li>
+  <li>Through telemetry, the data packages will be sent to the ground station via XBEE radios.</li>
+</ul>
+
+<p>During development of this piece of software I did lots of research to get the idea behind using sensors efficiently, communication protocols and using XBEE radios for telemetry.</p>
+
+<h2 id="sensor-management">Sensor Management</h2>
+
+<p>Learning how to use sensors and communicating with them was a new thing for me. For some of the sensors I used some libraries that are developed by PJRC developers. For the communication between the sensors and MCU, I used I2C protocol. The advantages of using I2C protocol are:</p>
+<ul>
+  <li>maintains low pin/signal count even with numerous devices on the bus</li>
+  <li>adapts to the needs of different slave devices</li>
+  <li>readily supports multiple masters</li>
+</ul>
+
+<p>Figuring out how the sensors are connected, how to test them and connecting them to each other took time but in the end I could manage to work all of them harmoniously.</p>
+
+<p>I used 6 sensors, an SD card and controlled multiple servo motors. The sensors are used for;</p>
+<ul>
+  <li>Altitude, pressure, temperature</li>
+  <li>Battery voltage</li>
+  <li>Time (hh.mm.ss), latitude, longitude, altitude from GPS</li>
+  <li>Pitch and roll</li>
+</ul>
+
+<p>After reading the raw data from the sensors, I processed these data and filtered the necessary ones and organized them into a package to transmit later.</p>
+
+<h2 id="xbee-radios">XBEE Radios</h2>
+
+<p>XBEE radios were needed for telemetry between the science payload and ground control device. We were expected to transmit one data package per second. Hence these devices with proper antennas were needed.</p>
+
+<p>Competitions requirements included wanted configurations for these radios such as setting their NETID/PANID and transmitting modes. For example each team were expected to transmit their data only to their team and not broadcast the packages.</p>
+
+<p>To configure the XBEE radios, I used XCTU configuration platform and did research how to configure the radios to get the highest performance. The most problematic situation that occured was that in long distances, there was too much package loss. We overcome this issue by testing our system in a different fequency.</p>
+:ET

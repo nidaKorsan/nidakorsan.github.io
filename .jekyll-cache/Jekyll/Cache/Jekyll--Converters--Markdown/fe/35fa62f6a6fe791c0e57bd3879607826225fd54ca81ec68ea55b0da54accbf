@@ -1,0 +1,15 @@
+I"~<h1 id="introduction">Introduction</h1>
+
+<p>In my second year in CSE, I joined the Robotics and Automation club in my university and as a team, we decided to attend to CanSat Competition which is orginazed by American Astronautical Society and sponsored by U.S. Naval Research Laboratory, NASA and more organizations.</p>
+
+<p>The consept of the competition design-build-launch a space-type system, following the given requirements. This space-type system is called a “<em>CanSat</em>” (short for <strong>Can</strong> <strong>Sat</strong>telite). Every year the mission changes. In the year our team had attended, we were expected to design an auto-gyro/passive helicopter recovery descent control system of a science payload and a container to protect the science payload as it is deployed from the rocket.</p>
+
+<p>During this mission we were expected to provide and transmit data which include measurements for altitude using air pressure, external temperature, battery voltage, GPS position, pitch and roll and auto-gyro/ passive helicopter recovery blade spin rate to a ground control device. When the science payload lands, the software loaded should stop all telemetry and activate an audio beacon which is located on the science payload.</p>
+
+<p>I was responsible for designing the flow of flight software that is needed for the quests listed above and develop this software.</p>
+
+<h1 id="development">Development</h1>
+
+<p>We decided to use Teensy 3.6 board to control and manage the sensors needed. There were multiple reasons behind choosing this board are that it is light and small, well-priced and that it has as sufficient memory and speed.</p>
+
+:ET
