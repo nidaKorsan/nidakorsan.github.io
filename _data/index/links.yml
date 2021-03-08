@@ -1,10 +1,17 @@
 # links section data
 - last_name: Nida Korsan
   first_name:
-  desc: Software Developer
-  website: https://github.com/nidaKorsan
+  desc: Social Media
+  website: 
+    - link : https://instagram.com/nidakorsan
+      icon: fa fa-instagram 
+    - link: https://www.facebook.com/nida.korsan
+      icon: fa fa-facebook
   email: nida.korsan@gmail.com
+  
 
+
+  
 #- last_name: Donate
 #  first_name: Jalpc
 #  desc: Support Jalpc

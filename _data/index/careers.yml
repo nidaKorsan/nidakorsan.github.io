@@ -12,6 +12,8 @@
   job:
     detail: CSE Student
     i18n: company_a_job
+  link:
+    detail: https://www.gtu.edu.tr/Fakulte-Enstitu-MYO.aspx?CategoryID=91&languageId=2
   icon: fa-plus-square
   present: true
 
@@ -27,4 +29,6 @@
   job:
     detail: Summer Intern
     i18n: company_b_job
+  link:
+    detail: https://obss.com.tr/academic/#summerIntership
   icon: fa-plus-square
