@@ -3,7 +3,7 @@
 #
 # Images are expected to be located in `static/assets/img/`.
 - src: landing/carousel_pc.jpg
-  title: first banner image
+  title: coffee=code
 
 #- src: landing/header_two.jpg
 #  title: second banner image
