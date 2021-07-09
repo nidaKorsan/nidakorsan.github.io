@@ -2,7 +2,7 @@
 # Add items for each banner image in the carousel
 #
 # Images are expected to be located in `static/assets/img/`.
-- src: landing/carousel_pc.jpg
+- src: landing/bannerGalaxy.jpg
   title: coffee=code
 
 #- src: landing/header_two.jpg

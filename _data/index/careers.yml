@@ -1,6 +1,23 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: Arhitectural Spies Ltd.
+    i18n: company_c
+  desc:
+    detail: I am doing my internship here, leading a book augmentation project.
+    i18n: company_c_desc
+  date:
+    detail: June 2021 - Now
+    i18n: company_c_date
+  job:
+    detail: Summer Intern
+    i18n: company_c_job
+  link:
+    detail: http://architecturalspies.com
+  icon: fa-plus-square
+  present: true
+
+- name:
     detail: Gebze Technical University
     i18n: company_a
   desc:
