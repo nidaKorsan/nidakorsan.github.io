@@ -2652,11 +2652,20 @@ body {
     font-weight: 600;
     font-size: 14px;
   }
-  .testimonials {
+
+  .projectTestimonials{
     padding-top: 80px;
     padding-bottom: 90px;
     background-color: #3385FF;
     background-image: url(../assets/img/landing/project-banner.jpg);
+    background-size: cover;
+  }
+
+  .testimonials {
+    padding-top: 80px;
+    padding-bottom: 90px;
+    background-color: #3385FF;
+    background-image: url(../assets/img/landing/blog-banner.jpg);
     background-size: cover;
   }
   .contact {

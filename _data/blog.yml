@@ -1,8 +1,14 @@
 # blog page sections
 #- name: Blog
 #  href: /blog/
+- name: Main Page
+  href: /
+
 - name: Projects
-  href : /blog/
+  href : /projects/
+
+- name: Blog
+  href: /blog/
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
 #- name: AR Based Messaging System
 #  href: /ar_based_messaging_system/

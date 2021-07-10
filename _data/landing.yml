@@ -18,15 +18,16 @@
   tpl: skills.html
   css: team
 
-# - id: projects
-#   i18n: nav.projects
-#   name: Projects
-#   tpl: projects.html
-#   css: project
+- id: projects
+  i18n: nav.projects
+  name: Projects
+  tpl: projects.html
+  page: projects/
+  css: projectTestimonials navy-section
 
 - id: blog
   i18n: nav.blog
-  name: Projects
+  name: Blog
   tpl: blog.html
   page: blog/
   css: testimonials navy-section
