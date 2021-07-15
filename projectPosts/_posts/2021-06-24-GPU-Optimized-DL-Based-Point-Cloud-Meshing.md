@@ -30,6 +30,7 @@ You can see the simple flow diagram below:
 Dataset needed for this project is prepared by me. To train the deep learning model, input and output sets were needed, hence I implemented a python script that handles ray-casting for point cloud data extraction from different 3D models and then applies Delaunay triangulation to generate surface fitted outputs. 
 
 ![alt text](https://mathworld.wolfram.com/images/eps-gif/DelaunayTriangulation_1000.gif "Delaunay Triangulation")
+
 The input is 400 adjacent-looking points on camera view that are chosen from the point cloud.
 
 The output is normally an 400x400 adjacency matrix. Since this matrix is symmetric, to increase memory efficiency the upper half of the matrix is taken and converted into an one dimensional vector of 400 binary (0, 1) elements. In this vector "0" represents that there is no edge between two vertices and "1" represents that there is an edge between two vertices.
