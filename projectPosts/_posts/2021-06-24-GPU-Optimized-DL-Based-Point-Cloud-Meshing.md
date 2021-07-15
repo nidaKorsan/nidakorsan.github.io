@@ -42,8 +42,7 @@ As an input this model expects a 32x32 matrix with 3 channels each. The inputs t
 
  1|2 |3
 :-------------------------:|:-------------------------:|:-------------------------:
-![1](https://user-images.githubusercontent.com/32648694/125749880-0f76bc98-bee9-4dd3-863b-dd29528f98c3.PNG)  |  ![2](https://user-images.githubusercontent.com/32648694/125749932-be7c2154-3841-4732-9e91-f3684aaf5d38.PNG)|
-![3](https://user-images.githubusercontent.com/32648694/125749965-a736181f-def5-449b-a89a-9c6de7c83c92.PNG)
+![1](https://user-images.githubusercontent.com/32648694/125749880-0f76bc98-bee9-4dd3-863b-dd29528f98c3.PNG)  |  ![2](https://user-images.githubusercontent.com/32648694/125749932-be7c2154-3841-4732-9e91-f3684aaf5d38.PNG)| ![3](https://user-images.githubusercontent.com/32648694/125749965-a736181f-def5-449b-a89a-9c6de7c83c92.PNG)
 
 
 
