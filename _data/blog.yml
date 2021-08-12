@@ -3,12 +3,12 @@
 #  href: /blog/
 - name: Main Page
   href: /
-
 - name: Projects
-  href : /projects/
-
+  href: /projects/
 - name: Blog
   href: /blog/
+- name: Donate
+  href: /donate/
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
 #- name: AR Based Messaging System
 #  href: /ar_based_messaging_system/
@@ -30,5 +30,5 @@
 #  href: /life/
 
 # Don't display donation page: change donation to off at file '_config.yml'
-- name: Donate
-  href: /donate/
+#- name: Donate
+#  href: /donate/
