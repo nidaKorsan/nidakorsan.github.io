@@ -14,7 +14,7 @@ author:  # change following line to your infomation.
   name: Nida  # Be used at blog posts' author.
   first_name: Nida Korsan  # Be used at index page about me section.
   last_name:  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/Nida_Korsan_foto.png  # upload your avatar at directory and edit it.
+  avatar: /static/assets/img/landing/NidaKorsanProfile.png  # upload your avatar at directory and edit it.
   github_username: nidaKorsan  # Leave blank if you don't have now
   linkedin_id: nida-korsan # Leave blank if you don't have now
   facebook_username:   # Leave blank if you don't have now
@@ -29,8 +29,9 @@ author:  # change following line to your infomation.
     - name: icon-cplusplus
     - name: icon-python
  # Describe yourself.
-  desc: Final Year Undergraduate Computer Science and Engineering Student in Gebze Technical University.
-        I aim for a career on AR/VR development, computer graphics and/or deep learning studies.
+  desc: Computer Science and Engineering Graduate
+        Currently in search for the next step in my academic career
+        Career choice is mainly AR/VR applications development, computer graphics and deep learning studies.
 # comment
 #disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
 #  name: jalpc
