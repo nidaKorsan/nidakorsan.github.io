@@ -7,10 +7,10 @@
     detail: Gebze Technical University
     i18n: company_a
   desc:
-    detail: I am an undergraduate student here, studying for my CSE degree.
+    detail: Graduated with 3.32/4.0 GPA.
     i18n: company_a_desc
   date:
-    detail: Aug. 2017 - Now
+    detail: Aug. 2017 - 2021
     i18n: company_a_date
   job:
     detail: CSE Student
@@ -18,7 +18,7 @@
   link:
     detail: https://www.gtu.edu.tr/Fakulte-Enstitu-MYO.aspx?CategoryID=91&languageId=2
   icon: fa-plus-square
-  present: true
+  present: false
 
 - name:
     detail: Arhitectural Spies Ltd.
