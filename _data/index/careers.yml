@@ -1,7 +1,22 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
-
+- name:
+    detail: Accenture Istanbul Industry X Center
+    i18n: company_a
+  desc:
+    detail: Working here as a Frontend Developer with a wonderful team, on an amazing project. 
+    i18n: company_a_desc
+  date:
+    detail: April 2022 - Present
+    i18n: company_a_date
+  job:
+    detail: CSE Student
+    i18n: company_a_job
+  link:
+    detail: https://www.accenture.com/us-en
+  icon: fa-plus-square
+  present: true
 
 - name:
     detail: Gebze Technical University
@@ -24,7 +39,7 @@
     detail: Arhitectural Spies Ltd.
     i18n: company_c
   desc:
-    detail: I have done my second dinternship at this company with Erasmus+ program. I have worked as the lead developer on a book augmentation project.
+    detail: I have done my second internship at this company with Erasmus+ program. I have worked as the lead developer on a book augmentation project.
     i18n: company_c_desc
   date:
     detail: June 2021 - September 2021
